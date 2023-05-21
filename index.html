@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form  -->
+    <!-- fieldset-Puts the whole form content inside a box -->
+    <fieldset>  
+        <!-- legend-adds a heading to the fieldset -->
+    <legend>Contact me form </legend>
+    <form >
+        <!-- label for and input id should be always same -->
+        <label for="name">Name:</label>
+        <!-- placeholder contains some texts before you add your text -->
+        <input type="text" id="name" placeholder="Enter your name:">
+        <br><br>
+        <label for="email">Email id:</label>
+        <input type="email" id="email"placeholder="Enter your email:" >
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password">
+        <br><br>
+        <label for="Phone-number">Number:</label>
+        <input type="text" id="Phone-number">
+        <br><br><br>
+        <!-- submit Button -->
+        <input type="submit" value="submit"> 
+        <br>
+        <br><br>
+        <!-- Radio button -->
+        <label for="gender">male </label>
+        <input type="radio"  id="gender" name="same">
+        <label for="gender1">female </label>
+        <input type="radio"  id="gender1" name="same">
+        <label for="gender2">none </label>
+        <input type="radio"  id="gender2" name="same">
+        <br><br>
+        <!-- date picker -->
+        <input type="date" id="datepicker">
+        <br><br><br>
+        <!-- text-area -->
+         <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter text here...."></textarea>
+         <br><br>
+
+         <!-- Dropdownbox -->
+         <label for="khana">Choose food-</label>
+        <select name="khana" id="khana">
+            <option value="Pizza">Pizza</option>
+            <option value="burger">burger</option>
+            <option value="pakoda">pakoda</option>
+            <option value="roll">roll</option>
+        </select>
+
+        <br><br>
+        <!-- File  -->
+        <label for="file">Upload your file:</label>
+        <input type="file" name="file" id="file">
+
+        <br><br>
+        <!-- image button -->
+        <label for="image">Download here</label>
+        <br>
+        <input type="image" name="image" id="image" src="61932.png" alt="Click" height="16px" width="10px">
+    </form>
+</fieldset>
+</body>
+</html>
